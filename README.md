@@ -2,7 +2,7 @@
 This project aims to create a job referential that will be used by recruiters to recommend jobs.
 
 
-## Context
+### Context
 In the temporary work industry, and more generally in recruitment, knowledge of the relationship between the jobs is a considerable advantage in improving the staffing process.
 Indeed, being able to say that job A is equivalent to job B or that job A requires similar skills to those of job B, for example, makes it possible to
 to propose a profile that has practised job B for an offer in job A.
