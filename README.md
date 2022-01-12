@@ -1,9 +1,8 @@
 # Job-Recommendation-Engine
 This project aims to create a job referential that will be used by recruiters to recommend jobs.
-
-
-
-
+<br>
+<br>
+<br>
 ### Context
 In the temporary work industry, and more generally in recruitment, knowledge of the relationship between the jobs is a considerable advantage in improving the staffing process.
 Indeed, being able to say that job A is equivalent to job B or that job A requires similar skills to those of job B, for example, makes it possible to
@@ -12,7 +11,8 @@ to propose a profile that has practised job B for an offer in job A.
 The aim here will be to create a job referential by determining the similarities between the various trades.
 For example, a graph of trades could be defined: the nodes of this graph would be the jobs, while each of the edges would represent the distance between them.
 Then, following this, clusters of "similar" jobs can be deduced.
-
+<br>
+<br>
 **The data:**
 To build this referential, you have the history of all the Gojob applications (~324k lines).
 
