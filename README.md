@@ -1,5 +1,5 @@
 # Job-Recommendation-Engine
-This project aims to create a job referential that will be used by recruiters to recommend jobs.
+This project aims to create a job referential that will be used by recruiters to recommend jobs to jobseekers.
 <br>
 <br>
 ### Context
@@ -25,16 +25,18 @@ Where:
 - order_list_profession_2: the list of level 2 jobs and related occupations in the offer
 - order_list_profession_3 : the list of jobs and related occupations at level 3 of the offer
 
-nb: the trade levels correspond to our categorisation of trades. We have 3
+nb: the job levels correspond to our categorisation of jobs. We have 3
 levels, 1, 2 and 3.
 → Level 1 is very general, and includes about ten elements (Industry,Agriculture, Services etc... ), and is not present in this dataset.
 → Level 2 is a little more precise, and its elements are categories of jobs (Accounting, Sales, Reception)
 → Level 3 designates the trades as such (Accounting assistant, Accountant, Salesperson, Salesperson, Switchboard operator, Receptionist)
 
 **Note:**
-We can consider several interactions between the jobs to generate this graph.
+We can consider several interactions between the jobs to generate this graph:
 → Two jobs A and B carried out by the same person
 → A job A carried out by a person applying for a job B
 → Two jobs A and B required in the same offer
+
+Another way of performing the calculation of jobs similarity could be to consider their descriptions. This way, we could use natural language processing or understanding (NLP or NLU) to achieve the same goal of grouping of the jobs. However, as the texts describing the jobs are not available in this dataset, we cannot afford to implement such an approach.
 
 The referential will probably benefit from the analysis of these three interactions.
