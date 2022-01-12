@@ -7,8 +7,8 @@ In the temporary work industry, and more generally in recruitment, knowledge of 
 Indeed, being able to say that job A is equivalent to job B or that job A requires similar skills to those of job B, for example, makes it possible to
 to propose a profile that has practised job B for an offer in job A.
 
-The aim here will be to create a job referential by determining the similarities between the various trades.
-For example, a graph of trades could be defined: the nodes of this graph would be the jobs, while each of the edges would represent the distance between them.
+The aim here will be to create a job referential by determining the similarities between the various jobs.
+For example, a graph of jobs could be defined: the nodes of this graph would be the jobs, while each of the edges would represent the distance between them.
 Then, following this, clusters of "similar" jobs can be deduced.
 
 **The data:**<br>
@@ -29,7 +29,7 @@ nb: the job levels correspond to our categorisation of jobs. We have 3
 levels, 1, 2 and 3:<br>
 → *Level 1* is very general, and includes about ten elements (Industry,Agriculture, Services etc... ), and is not present in this dataset.<br>
 → *Level 2* is a little more precise, and its elements are categories of jobs (Accounting, Sales, Reception)<br>
-→ *Level 3* designates the trades as such (Accounting assistant, Accountant, Salesperson, Salesperson, Switchboard operator, Receptionist)
+→ *Level 3* designates the jobs as such (Accounting assistant, Accountant, Salesperson, Salesperson, Switchboard operator, Receptionist)
 
 **Note:**<br>
 We can consider several interactions between the jobs to generate this graph:<br>
